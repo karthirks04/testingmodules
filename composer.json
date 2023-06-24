@@ -1,6 +1,7 @@
 {
     "name": "test/testmodules",
     "type": "project",
+    "description": "A short description of what your package does",
     "autoload": {
         "psr-4": {
             "Test\\Testmodules\\": "src/"
@@ -11,5 +12,8 @@
             "name": "karthick"
         }
     ],
-    "require": {}
+     "require": {
+        "php": ">=7.2",
+        "another-vendor/package": "1.*"
+    }
 }
