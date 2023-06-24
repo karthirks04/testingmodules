@@ -1,0 +1,15 @@
+{
+    "name": "test/testmodules",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Test\\Testmodules\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "karthick"
+        }
+    ],
+    "require": {}
+}
