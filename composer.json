@@ -3,6 +3,7 @@
     "type": "project",
     "description": "A short description of what your package does",
     "minimum-stability": "dev",
+    "prefer-stable": "true",
     "autoload": {
         "psr-4": {
             "Test\\Testmodules\\": "src/"
