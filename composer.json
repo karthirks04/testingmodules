@@ -2,7 +2,7 @@
     "name": "test04121/testmodules0412",
     "type": "project",
     "description": "A short description of what your package does",
-    "minimum-stability": "dev-main",
+    "minimum-stability": "dev",
 "prefer-stable": true,
     "autoload": {
         "psr-4": {
