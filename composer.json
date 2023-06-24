@@ -2,8 +2,7 @@
     "name": "test04121/testmodules0412",
     "type": "project",
     "description": "A short description of what your package does",
-    "minimum-stability": "dev",
-    "prefer-stable": "true",
+   
     "autoload": {
         "psr-4": {
             "Test\\Testmodules\\": "src/"
@@ -14,8 +13,16 @@
             "name": "karthick"
         }
     ],
-     "require": {
+     "license": "MIT",
+    "require": {
+       "php": "^7.2.5|^8.0"
+           
+    },
+    "config": {
+         "platform": {
         "php": "7.2.12"
-       
-    }
+    },
+    },
+     "minimum-stability": "dev",
+    "prefer-stable": true
 }
