@@ -2,6 +2,8 @@
     "name": "test04121/testmodules0412",
     "type": "project",
     "description": "A short description of what your package does",
+    "minimum-stability": "main",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Test\\Testmodules\\": "src/"
